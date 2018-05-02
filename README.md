@@ -113,9 +113,7 @@ When you connect to the TCP interface of the **Auditor**, you should receive an 
 |Question | What **payload** should we put in the UDP datagrams? |
 | |  payload (320 bytes) | 
 |Question | What **data structures** do we need in the UDP sender and receiver? When will we update these data structures? When will we query these data structures? |
-| | Structure : En-tête IP 	En-tête UDP 	Données
-    When an instrument stop to play
-   	Each time when we would display who play|
+| | Structure : En-tête IP 	En-tête UDP -	Données When an instrument stop to play -	Each time when we would display who play |
 
 
 ## Task 2: implement a "musician" Node.js application
