@@ -121,7 +121,8 @@ When you connect to the TCP interface of the **Auditor**, you should receive an 
 | | Structure : En-tête IP 	En-tête UDP 	Données
         	
         	When an instrument stop to play
-        	Each time when we would display who play |
+        	Each time when we would display who play 
+|
 
 
 ## Task 2: implement a "musician" Node.js application
