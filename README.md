@@ -111,13 +111,11 @@ When you connect to the TCP interface of the **Auditor**, you should receive an 
 |Question | Who is going to **listen for UDP datagrams** and what should happen when a datagram is received? |
 | | The Auditor, display which instrument are active |
 |Question | What **payload** should we put in the UDP datagrams? |
-| |  your payload (320 bytes) |
- 
+| |  payload (320 bytes) | 
 |Question | What **data structures** do we need in the UDP sender and receiver? When will we update these data structures? When will we query these data structures? |
 | | Structure : En-tête IP 	En-tête UDP 	Données
-        	
-        	When an instrument stop to play
-        	Each time when we would display who play 
+    When an instrument stop to play
+   	Each time when we would display who play 
 |
 
 
