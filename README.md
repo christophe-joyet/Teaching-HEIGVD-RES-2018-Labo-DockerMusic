@@ -107,13 +107,21 @@ When you connect to the TCP interface of the **Auditor**, you should receive an 
 |Question | How can we represent the system in an **architecture diagram**, which gives information both about the Docker containers, the communication protocols and the commands? |
 | | *Insert your diagram here...* |
 |Question | Who is going to **send UDP datagrams** and **when**? |
-| | *Enter your response here...* |
+| |         	The musicians every second |
 |Question | Who is going to **listen for UDP datagrams** and what should happen when a datagram is received? |
-| | *Enter your response here...* |
+| | The Auditor, display which instrument are active |
 |Question | What **payload** should we put in the UDP datagrams? |
-| | *Enter your response here...* |
+| | https://stackoverflow.com/questions/29974434/udp-payload-length-and-packet-transmission
+        	
+            the IP header (20 bytes)
+            the UDP header (8 bytes)
+            your payload (320 bytes)
+ |
 |Question | What **data structures** do we need in the UDP sender and receiver? When will we update these data structures? When will we query these data structures? |
-| | *Enter your response here...* |
+| | Structure : En-tête IP 	En-tête UDP 	Données
+        	
+        	When an instrument stop to play
+        	Each time when we would display who play |
 
 
 ## Task 2: implement a "musician" Node.js application
