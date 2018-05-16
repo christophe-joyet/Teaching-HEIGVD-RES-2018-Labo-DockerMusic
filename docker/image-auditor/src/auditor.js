@@ -40,6 +40,7 @@ tcpServer.listen(protocol.PORT); //ecoute sur le port PORT
 console.log("TCP Server now running on port : " + protocol.PORT);
 
 tcpServer.on('connection', function (socket) { //Dès qu'il y a une connexion
+    checkInstruments();
     socket.write(JSON.stringify(musicians));    //sérialiser en JSON le tableau de musicien
     socket.destroy();
 });
